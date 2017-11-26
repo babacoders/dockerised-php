@@ -26,9 +26,10 @@ This displays an image of minions on the web browser.
 
 * git clone https://github.com/babacoders/simple-php-website
 
-6. Move the simple-php-website folder to code folder
+6. Remove the code folder and copy all contents under new code folder
 
-* mv simple-php-website code
+* rm -fr code 
+* mv  simple-php-website code
 
 7. Restart the Docker Compose
 
